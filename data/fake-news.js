@@ -7,7 +7,7 @@ const GenerateFakeNews = (limit) => {
     const content = faker.lorem.paragraph();
     const date = faker.date.past().toLocaleDateString();
     const id = faker.string.uuid();
-    const image = faker.image.urlPicsumPhotos({ width: 200, height: 100 });
+    const image = faker.image.urlPicsumPhotos({ width: 3840, height: 2160 }); 
     const author = faker.person.fullName();
 
     newsList.push({

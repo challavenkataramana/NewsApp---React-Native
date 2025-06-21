@@ -49,6 +49,7 @@ const styles = StyleSheet.create({
     width: "95%",
     height: 300,
     borderRadius: 10,
+    marginVertical: 10,
   },
   dateNAuthor: {
     width: "80%",
@@ -62,6 +63,7 @@ const styles = StyleSheet.create({
     fontWeight: 500,
     fontSize: 20,
     paddingVertical: 10,
+    paddingHorizontal:8,
   },
   content: {
     fontSize: 15,
